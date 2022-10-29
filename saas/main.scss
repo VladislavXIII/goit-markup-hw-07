@@ -1,3 +1,11 @@
-body{
-    background-color: rgb(20, 17, 202);
-}
+@import './base/reset';
+@import './layouts/header';
+@import './hero';
+@import './skill';
+@import './about';
+@import './team';
+@import './portfolio';
+@import './clients';
+@import './layouts/footer';
+
+

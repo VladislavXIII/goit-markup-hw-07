@@ -1,0 +1,90 @@
+.top-skill {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill {
+    display: flex;
+}
+
+.skill-item {
+    width: 270px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.skill-item:last-child {
+    margin-right: 0px;
+}
+
+.skill-antenna-icon::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    background-size: 70px 70px;
+    background-image: url(../images/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill-clock-icon::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    background-size: 70px 70px;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill-diagram-icon::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    background-size: 70px 70px;
+    background-image: url(../images/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill-space-icon::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    background-size: 70px 70px;
+    background-image: url(../images/space.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill-top-text {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--top-text-color);
+}
+
+.skill-second-text {
+    font-size: 14px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
