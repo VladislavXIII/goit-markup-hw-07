@@ -1,11 +1,15 @@
 @import './base/reset';
-@import './layouts/header';
-@import './hero';
-@import './skill';
-@import './about';
-@import './team';
-@import './portfolio';
-@import './clients';
-@import './layouts/footer';
 
+@import './extreme-layers/header';
 
+@import './layouts/hero';
+@import './layouts/skill';
+@import './layouts/about';
+@import './layouts/team';
+@import './layouts/portfolio';
+@import './layouts/clients';
+
+@import './extreme-layers/footer';
+
+@import './components/modal-window';
+@import './components/modal-window-form';
