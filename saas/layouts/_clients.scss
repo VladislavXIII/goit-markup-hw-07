@@ -23,10 +23,9 @@
 
 .clients-item {
     margin-right: 30px;
-}
-
-.clients-item:last-child {
+    &:last-child {
     margin-right: 0px;
+    }
 }
 
 .clients-link-logo {
@@ -44,16 +43,12 @@
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     cursor: pointer;
-}
-
-.clients-link-logo:hover {
+    
+    &:hover,
+    &:focus {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
-}
-
-.clients-link-logo:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
+    }
 }
 
 .btn-icon {
@@ -68,8 +63,7 @@
     fill: currentColor;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-icon:hover {
+    &:hover {
     fill: var(--accent-color);
+    }
 }
