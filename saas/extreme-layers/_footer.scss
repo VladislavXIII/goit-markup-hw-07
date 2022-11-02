@@ -1,4 +1,4 @@
-.footer-style {
+.footer {
     background-color: #212121;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -8,7 +8,7 @@
     display: flex;
 }
 
-.logo-footer {
+.logo--footer {
     display: inline-flex;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -19,6 +19,10 @@
     color: #FFFFFF;
     /* margin-top: 60px; */
     margin-bottom: 20px;
+}
+
+.logo__web{
+    color: var(--accent-color);
 }
 
 .address {

@@ -46,7 +46,7 @@ ul {
   text-decoration: none;
 }
 
-.header__logo {
+.header--logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   margin-right: 93px;
@@ -59,7 +59,7 @@ ul {
   color: #000000;
 }
 
-.header__logo__web {
+.logo__web {
   color: var(--accent-color);
 }
 
@@ -646,7 +646,7 @@ ul {
   fill: var(--accent-color);
 }
 
-.footer-style {
+.footer {
   background-color: #212121;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -656,7 +656,7 @@ ul {
   display: flex;
 }
 
-.logo-footer {
+.logo--footer {
   display: inline-flex;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -667,6 +667,10 @@ ul {
   color: #FFFFFF;
   /* margin-top: 60px; */
   margin-bottom: 20px;
+}
+
+.logo__web {
+  color: var(--accent-color);
 }
 
 .address {
