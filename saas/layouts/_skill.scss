@@ -1,19 +1,16 @@
-.top-skill {
+.skill {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.skill-container {
-    display: flex;
+.skill__container {
     align-items: center;
     justify-content: space-between;
 }
-
-.skill {
+.skill__list{
     display: flex;
 }
-
-.skill-item {
+.skill__item {
     width: 270px;
     margin-right: 30px;
     justify-content: space-between;
@@ -22,7 +19,7 @@
     }
 }
 
-.skill-antenna-icon::before {
+.skill__antenna-icon::before {
     display: block;
     content: '';
     height: 120px;
@@ -34,7 +31,7 @@
     background-position: center;
 }
 
-.skill-clock-icon::before {
+.skill__clock-icon::before {
     display: block;
     content: '';
     height: 120px;
@@ -46,7 +43,7 @@
     background-position: center;
 }
 
-.skill-diagram-icon::before {
+.skill__diagram-icon::before {
     display: block;
     content: '';
     height: 120px;
@@ -58,7 +55,7 @@
     background-position: center;
 }
 
-.skill-space-icon::before {
+.skill__space-icon::before {
     display: block;
     content: '';
     height: 120px;
@@ -70,7 +67,7 @@
     background-position: center;
 }
 
-.skill-top-text {
+.skill__top-text {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -81,7 +78,7 @@
     color: var(--top-text-color);
 }
 
-.skill-second-text {
+.skill__second-text {
     font-size: 14px;
     line-height: 1.9;
     letter-spacing: 0.03em;

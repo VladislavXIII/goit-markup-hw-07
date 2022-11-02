@@ -5,22 +5,13 @@
     background: #F5F4FA;
 }
 
-.team-container {
+.team__container {
     /* display: flex; */
     /* margin-top: 94px; */
     align-items: center;
     justify-content: space-between;
 }
-
-.team-list {
-    display: flex;
-}
-
-.team-link {
-    margin-right: 30px;
-}
-
-.team-caption {
+.team__caption {
     /* padding-top: 94px; */
     margin-bottom: 50px;
     font-style: normal;
@@ -32,12 +23,24 @@
     color: var(--top-text-color);
 }
 
-.key-info {
+.squad {
+    display: flex;
+}
+.squad__link {
+    display: inline-block;
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 30px;
+}
+
+.squad__info {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team-name {
+.squad__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -46,7 +49,7 @@
     color: var(--top-text-color);
 }
 
-.team-position {
+.squad__position {
     font-style: normal;
     font-size: 16px;
     line-height: 1.9;
@@ -55,21 +58,13 @@
     color: var(--second-text-color);
 }
 
-.team-link {
-    display: inline-block;
-    width: 270px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.team-soc-list {
+.social {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.team-soc-link {
+.social__link {
     height: 44px;
     width: 44px;
     border-radius: 50%;

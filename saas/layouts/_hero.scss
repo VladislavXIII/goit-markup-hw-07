@@ -11,7 +11,7 @@
     background-size: cover;
 }
 
-.hero-caption {
+.hero__caption {
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
@@ -21,7 +21,7 @@
     color: #FFFFFF;
 }
 
-.hero-btn {
+.hero__btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -38,14 +38,14 @@
     border-radius: 4px;
 }
 
-.hero-btn-text {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    cursor: pointer;
-}
+// .hero-btn-text {
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.88;
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     letter-spacing: 0.06em;
+//     color: #FFFFFF;
+//     cursor: pointer;
+// }
